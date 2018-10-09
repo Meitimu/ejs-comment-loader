@@ -1,0 +1,37 @@
+{
+  "name": "ejs-comment-loader",
+  "version": "0.1.0",
+  "description": "use EJS in js file",
+  "main": "src/loader.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Meitimu/ejs-comment-loader.git"
+  },
+  "keywords": [
+    "ejs",
+    "webpack",
+    "loader",
+    "js",
+    "template"
+  ],
+  "author": "Meitimu <meitimu@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Meitimu/ejs-comment-loader/issues"
+  },
+  "homepage": "https://github.com/Meitimu/ejs-comment-loader",
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "memory-fs": "^0.4.1",
+    "webpack": "^4.17.2"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "loader-utils": "^1.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
